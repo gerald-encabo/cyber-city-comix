@@ -1,0 +1,138 @@
+:root {
+    --primary: #fff;
+    --secondary: #2f2e41;
+    --tertiary: #f00946;
+    --dark: #484848;
+}
+
+.slider-container {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3vh;
+}
+.active {
+    display: inline-block;
+}
+.inactive {
+    display: none;
+}
+.slides {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+.slide-image {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    object-fit: contain;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 0;
+}
+.slide-tile {
+    width: 280px;
+    height: auto;
+    z-index: 10;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    color: rgb(255,255,255);
+    left: 10%;
+    padding: 30px;
+}
+.slide-alert {
+    color: #f3bd23;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+.slide-title{
+    font-size: 40px;
+    padding: 12px 0;
+}
+.slide-date {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.slider-btn {
+    border: 0;
+    width: 100%;
+}
+.prev, .next {
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: .8rem;
+    margin-top: -3rem;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(0,0,0,0.6);
+    justify-content: center;
+}
+.prev:hover, .next:hover {
+    color: var(--primary);
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 50%;
+}
+.next {
+    right: 5%;
+}
+.prev {
+    left: 5%;
+}
+.all-dots {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 90%;
+    left:0;
+    z-index: 200;
+}
+.dot {
+    cursor: pointer;
+    height: .8rem;
+    width: .8rem;
+    margin: 0 3px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    display: inline-block;
+}
+.active-dot {
+    background-color: rgba(0,0,0,1);
+}
+
+@media screen and (max-width: 760px) {
+    .slide-tile {
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        padding: 10px;
+        background-color: rgba(0,0,0,.8);
+    }
+    .slide-alert {
+        display: none;
+    }
+    .slide-title {
+        font-size: 26px;
+        padding: 2.5px 0;
+    }
+    .slide-date {
+        display: none;
+    }
+    .prev:hover, .next:hover {
+        display: none;
+    }
+    .all-dots {
+        display: none;
+    }
+}

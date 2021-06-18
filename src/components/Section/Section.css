@@ -1,0 +1,59 @@
+:root {
+    --primary: #fff;
+    --secondary: #2f2e41;
+    --tertiary: #f00946;
+    --dark: #484848;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    padding: 80px 0; 
+    background-color: #e3e3e3;
+}
+.section-card {
+    text-decoration: none;
+    color: var(--dark);
+    cursor: pointer;
+}
+.section-card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-out;
+    color: var(--dark);
+}
+.section-container  {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-row-gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+.section-tile {
+    height: 100%;
+    width: 290px;
+    margin: 0 20px;
+    border: 3px solid var(--dark);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--primary);
+}
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    align-content: center;
+    padding: 20px;
+}
+.img {
+    height: 250px;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
