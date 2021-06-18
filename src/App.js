@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Navbar />
         <Switch>
-           <Route path='/cyber-city-comics' exact>
-             <Redirect to="/" />
+           <Route path='/cyber-city-comix' exact>
+             <Redirect to='/' />
            </Route>
            <Route path='/' component={ Home }  exact />
            <Route path='/comics/:num' component={ Comics } exact/>
