@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cyber-city-comix/static/css/main.3e5aa159.chunk.css",
+    "main.js": "/cyber-city-comix/static/js/main.ff90bab4.chunk.js",
+    "main.js.map": "/cyber-city-comix/static/js/main.ff90bab4.chunk.js.map",
+    "runtime-main.js": "/cyber-city-comix/static/js/runtime-main.7c9a4eb4.js",
+    "runtime-main.js.map": "/cyber-city-comix/static/js/runtime-main.7c9a4eb4.js.map",
+    "static/js/2.c279e3b1.chunk.js": "/cyber-city-comix/static/js/2.c279e3b1.chunk.js",
+    "static/js/2.c279e3b1.chunk.js.map": "/cyber-city-comix/static/js/2.c279e3b1.chunk.js.map",
+    "static/js/3.d3cc59c3.chunk.js": "/cyber-city-comix/static/js/3.d3cc59c3.chunk.js",
+    "static/js/3.d3cc59c3.chunk.js.map": "/cyber-city-comix/static/js/3.d3cc59c3.chunk.js.map",
+    "index.html": "/cyber-city-comix/index.html",
+    "static/css/main.3e5aa159.chunk.css.map": "/cyber-city-comix/static/css/main.3e5aa159.chunk.css.map",
+    "static/js/2.c279e3b1.chunk.js.LICENSE.txt": "/cyber-city-comix/static/js/2.c279e3b1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c9a4eb4.js",
+    "static/js/2.c279e3b1.chunk.js",
+    "static/css/main.3e5aa159.chunk.css",
+    "static/js/main.ff90bab4.chunk.js"
+  ]
+}
